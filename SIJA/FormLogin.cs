@@ -34,6 +34,7 @@ namespace SIJA
             {
                 MessageBox.Show("All fields must be filled");
                 return;
+
             }
 
             // Membuat koneksi ke database dengan LINQ to SQL
@@ -56,7 +57,7 @@ namespace SIJA
             else
             {
                 // Tampilkan pesan error jika login gagal
-                MessageBox.Show("Your data is valid!!");
+                MessageBox.Show("Your data is not valid!!");
 
                 // Kosongkan kembali inputan
                 tbName.Text = "";

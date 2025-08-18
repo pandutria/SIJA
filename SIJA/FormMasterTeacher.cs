@@ -36,7 +36,7 @@ namespace SIJA
             dgvData.Columns.Clear(); // Menghapus semua kolom sebelumnya untuk mencegah duplikasi
 
             // Mengambil data guru dari database yang namanya mengandung teks dari TextBox pencarian
-            var teacher = db.teachers.Where(x => x.name.Contains(tbSearch.Text))
+            var teacher = db.teachers.Where(x => x.name.StartsWith(tbSearch.Text))
                 .Select(x => new {
                     x.id,
                     x.name,
