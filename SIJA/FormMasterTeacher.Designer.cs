@@ -56,7 +56,7 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(270, 20);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(261, 46);
+            this.label1.Size = new System.Drawing.Size(257, 45);
             this.label1.TabIndex = 1;
             this.label1.Text = "Master Teacher";
             // 
@@ -64,7 +64,7 @@
             // 
             this.dgvData.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvData.Location = new System.Drawing.Point(29, 130);
+            this.dgvData.Location = new System.Drawing.Point(29, 131);
             this.dgvData.Name = "dgvData";
             this.dgvData.RowHeadersWidth = 51;
             this.dgvData.RowTemplate.Height = 24;
@@ -227,7 +227,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 584);
+            this.ClientSize = new System.Drawing.Size(792, 584);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.tbSearch);
             this.Controls.Add(this.btnDelete);

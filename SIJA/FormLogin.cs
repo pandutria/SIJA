@@ -13,6 +13,7 @@ namespace SIJA
     public partial class FormLogin : Form
     {
         // Constructor untuk FormLogin, memanggil metode InitializeComponent
+        public static string name;
         public FormLogin()
         {
             InitializeComponent(); // Inisialisasi komponen Form
@@ -48,6 +49,8 @@ namespace SIJA
             // Jika user ditemukan (tidak null)
             if (user != null)
             {
+                Helper.id = user.id;
+                Helper.password = user.password;
                 // Tampilkan form utama (FormMain), kirimkan nama user
                 new FormMain(user.name).Show();
 
